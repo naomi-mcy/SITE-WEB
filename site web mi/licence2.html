@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LICENCE 2</title>
+    <!-- Importation des icônes via Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* En-tête */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 50px; /* Redimensionne à 100px de large */
+    height: auto; /* Garde les proportions */
+    margin-top: 30px; /* Descend de 15px */
+}
+
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #19912d;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #18a1fd;
+}
+
+/* Corps */
+.main-content {
+    height: 60vh;
+    background-image: url('./book.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Change la direction en colonne */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    justify-content: center; /* Centre verticalement le contenu */
+    text-align: left;
+}
+
+.main-content a {
+    color: white;
+    padding: 0px;
+    font-size: 40px;
+    width: 80%;
+}
+
+/* Pied de page */
+footer {
+    height: 10px;
+    padding: 4px;
+    color:rgb(0, 7, 0);
+    font-size: 14px;
+    line-height: 0.7; /* Réduit l'espacement entre les lignes */
+    text-align: center;
+}
+
+.footer-container {
+max-width: 1100px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 9px 10px;
+}
+
+.footer-column {
+flex: 1;
+min-width: 100px;
+margin: 10px;
+}
+
+.footer-column h3 {
+color: #19912d;
+font-size: 20px;
+margin-bottom: 15px;
+border-bottom: 2px solid #3498db;
+padding-bottom: 3px;
+}
+
+.footer-column p {
+margin: 8px 0;
+line-height: 1.2;
+}
+
+.footer-column a {
+color: #000000;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+color: #19912d;
+}
+
+.social-icons a {
+    margin: 0px 10px;
+    color: #19912d;
+    text-decoration: none;
+    font-size: 32px;
+}
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo"><img src="./logoMI.png" alt="Mon Logo" width="100"></div>
+    </header>
+
+    <!-- Corps -->
+    <main class="main-content">
+        <li><a href="./Licence 2/AnciensSujetsL2.html">Anciens Sujet L2</a></li>
+        <li><a href="./Licence 2/CorrectionsL2.html">Correction Anciens Sujet L2</a></li>
+        <li><a href="./Licence 2/Coursl2.html">Cours L2</a></li>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Accueil</h3>
+                <p><a href="./main.html">Retour à la page d'accueil</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/MI.UFHB/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://w.univ-fhb.edu.ci/ufr-mi" target="_blank"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>À propos de nous</h3>
+                <p>Nous mettons à votre disposition les cours,les anciens sujets et les differentes corrections. </p>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p>Email : ufrmi@ufhb.edu.ci</p>
+                <p>Téléphone : (+225) 01 012 193 16</p>
+                <p>Adresse : Cocody, Abidjan</p>
+            </div>
+        </div>
+        <p>&copy; 2025 UFR MATH-INFO - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
